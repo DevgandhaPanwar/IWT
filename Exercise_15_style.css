@@ -1,0 +1,38 @@
+body
+{
+ background-image:radial-gradient( rgba(255,0,0,.5) 40%, rgba(0,255,0,.5) 40%),url('images1/26.jpg');
+}
+
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+    color:maroon;
+}
+h2
+{
+  text-align: left;
+  font-size: 20px;
+  color:darkblue;
+}
+p
+{
+  text-align:justify;
+  font-size:15px;
+  text-indent:80px;
+  color:darkmagenta;
+  border-style:double;
+  border-width:10px;
+  padding:20px, 50px, 10px, 60px;
+  margin:30px, 60px, 20px, 70px;
+  border-radius:30px;
+  line-height: 30px;
+  
+}
+
+.highlight
+ {
+     background-color: green;
+     color:darkmagenta;
+ }

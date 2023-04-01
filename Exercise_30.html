@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style class="text/stylesheet" >
+        
+    body{
+        background-color:white;
+
+    }
+    h1{
+        margin-top: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left:444px;
+        font-weight: 900;
+       
+    }
+    h2{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #div1{
+        
+        margin-left: 340px;
+        margin-top: 90px;
+        padding:10px;
+        border:2px solid black;
+        height: 300px;
+        width: 600px;
+        border-radius: 30px;
+        background-color:hotpink;
+        box-shadow: 7px 7px 7px black;
+    }
+
+    #div2{
+        margin-top: 50px;
+        margin-left: 125px;
+    }
+    #uinput{
+        height: 40px;
+        font-size: 25px;
+    }
+    #btn{
+        height: 25px;
+        width: 100px;
+        margin-left:94px;
+    }
+   
+    </style>
+</head>
+<body>
+    <h1>Please Guess the Number!!</h1>
+    <div id="div1">
+        
+        <h2 id="output" align="center">Enter any number (1-1000)</h2>
+        <div id="div2">
+        <input align="center" type="text" id="uinput"><br><br>
+        <button id="btn">Submit</button>
+        </div>
+    </div>
+   
+    <script type="text/javascript">
+        let btn=document.getElementById('btn');
+        let oput=document.getElementById('output');
+        let num=[Math.floor(Math.random()*1000)]
+
+        btn.addEventListener('click',function()
+        {
+            let input=parseInt(document.getElementById('uinput').value);
+  
+            if(Number.isInteger(input))
+            {
+             
+            if(num==input){
+                oput.innerHTML="Congrats!!You Guessed the Right Number";
+            }
+            else if(num>input){
+                oput.innerHTML="Too Low! Try Again"
+            }
+           else{
+                oput.innerHTML="Too High! Try Again"
+            }
+            }
+       else
+        {
+           oput.innerHTML="Please Enter an Integer!!"
+       }
+
+        });
+    </script>
+
+</body>
+
+</html> 

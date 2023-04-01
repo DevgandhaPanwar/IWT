@@ -1,0 +1,411 @@
+nav ul
+        {
+          list-style: none;
+          margin:0;
+          padding:0;
+          position:relative;
+        }
+        nav ol a
+        {
+            text-decoration: none;
+        }
+nav ul li
+        {
+            font-size: 20px;
+            text-align: left;
+            background-color:darkcyan;
+            color:white;
+            margin:1px;
+            align-items: center;
+            padding-left:5px;
+            float:left; 
+            position: relative;
+            width:200px;
+            height: 30px;
+            box-shadow:2px 2px 3px gold;
+           
+        }
+       
+.introduction
+{
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg5.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bio
+{
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg7.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.education
+{
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg1.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills
+{
+    
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg2.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.code
+{
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg12.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.writing
+{
+
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg13.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podcasts
+{
+    height:700px;
+    width:100%;
+    background-image:url("backgrounds/bg6.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+.introduction > div > p
+{
+    font-size: 21px;
+    text-align: justify;
+    align-items: center;
+    font-weight:500;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.introduction > div > img
+{
+    
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-left: 440px;
+    margin-top: -50px;
+   
+ 
+}
+
+.bio > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+.bio > div > h1
+{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.bio > div > h2
+{
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bio > div > p
+{
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width:45%;
+    box-sizing: border-box;
+}
+
+
+.bio > div > img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin-left: -50px;
+    margin-top: 50px;
+    
+}
+.education > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+
+.education > div > img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin-left: -50px;
+    margin-top: 50px;
+    
+}
+.education > div > h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.education > div > h2
+{
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.education > div > p
+{
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width:45%;
+    box-sizing: border-box;
+}
+
+
+.skills > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+.skills > div > img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin-left: -50px;
+    margin-top: 50px;
+    
+}
+.skills > div > h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.skills > div > h2
+{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.skills > div > p
+{
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width:45%;
+    box-sizing: border-box;
+}
+
+.code > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+
+.code > div > img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius:60px;
+    margin-left: -50px;
+    margin-top: 50px;
+    
+}
+.code > div > h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.code > div > h2
+{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.code > div > p
+{
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width:45%;
+    box-sizing: border-box;
+}
+
+.writing > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+.writing > div > img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius:60px;
+    margin-left: -50px;
+    margin-top: 50px;
+    
+}
+.writing > div > h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.writing > div > h2
+{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.writing > div > p
+{
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width:45%;
+    box-sizing: border-box;
+}
+.podcasts > div
+{
+    background-color: white;
+    height: 550px;
+    width: 1050px;
+    box-shadow: 10px 20px 5px black;
+    
+}
+
+.podcasts > div > img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius:60px;
+    margin-left: -50px;
+    margin-top: 50px;
+    
+}
+.podcasts > div > h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.podcasts > div > h2
+{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.podcasts > div > p
+{
+    text-align:justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width:45%;
+    box-sizing: border-box;
+}
+.highlight
+{
+    font-weight: bolder;
+}

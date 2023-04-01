@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        div{
+            font-size: 50px;
+            color:aqua;
+            border-radius: 50%;
+            height: 200px;
+            width: 400px;
+            background-color: brown;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 40%;
+        }
+        body{
+            background-color: 
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            font-weight: 700;
+            padding-top: 80px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Time</h1>
+    <div id = "clock" >
+    </div>
+    <script>
+        function clock()
+        {
+            d=new Date();
+            hh=d.getHours();
+            mm=d.getMinutes();
+            ss=d.getSeconds();
+            cTime=hh+":"+mm+":"+ss;
+            block=document.getElementById('clock');
+            block.innerHTML=cTime;
+        }
+        setInterval(clock, 1000);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            border: 5px solid red;
+            width: 30%;
+            box-shadow: 2px 2px 5px black;
+            padding: 10px;
+        }
+
+        .card>img {
+            height: 500px;
+            width: 100%
+        }
+
+        .desc {
+            padding: 10px;
+            display: block;
+            position: relative;
+        }
+
+        .date {
+            height: 40px;
+            width: 100px;
+            background-color: hotpink;
+            color: azure;
+            font-weight: 800;
+            font-size: 30px;
+            position: absolute;
+            top: 20px;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display:flex;">
+        <script>
+            images = ["1.jpg", "2.jpg", "3.jpg"]
+            titles = ['Stones', 'Tiger', 'Clouds']
+            desc = ["It’s a heavy thing, your nothing. When I write or send for you or speak or reach, your nothings come. Like stones.", "It is far better to live like a tiger for a day than to live like a jackal for a hundred years.", "I'm a dreamer. I have to dream and reach for the stars, and if I miss a star then I grab a handful of clouds."]
+            dt = ['23 Nov', '10 Dec', '26 Jan']
+            for (i = 0; i < 3; i++) {
+                x = '<div class="card">' + '<img src="images1/' + images[i] + '"/>' + '<div class="date">' + dt[i] + '</div>' + 
+                '<div class="desc">' + '<h2>' + titles[i] + '</h2>' + '<p>' + desc[i] + '</p>' + '</div>' + '</div>'
+                document.write(x);
+            }
+
+
+
+        </script>
+    </div>
+</body>
+
+</html>

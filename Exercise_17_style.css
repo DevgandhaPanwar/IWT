@@ -1,0 +1,41 @@
+h1
+{
+    text-align: center;
+    color:hotpink;
+}
+body
+{
+    background-image:url('bgs/washi.png');
+}
+p
+{
+    text-align:justify;
+    color:darkmagenta;
+    font-size:20px;
+    text-indent: 20px;
+    border-style:double;
+    border-width:10px;
+    border-radius: 30px;
+    border-color:blue;
+    padding:20px 10px 30px 20px; 
+    margin:30px, 30px, 20px, 70px;
+    outline:solid blue 1px;
+   /* outline-offset: 5px; */
+    float:right;
+    width:45%;
+    box-sizing: border-box;
+    box-shadow:10px 20px 5px black;
+
+
+}
+
+img
+{
+    height:200px;
+    border-radius: 50%;
+    display:block;
+    float:right;
+    margin:20px;
+    
+}
+
